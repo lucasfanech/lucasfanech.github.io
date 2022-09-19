@@ -1,1 +1,262 @@
-"Coming soon..." 
+
+<html>
+<head>
+    <title>Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <script src="js/jquery.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/3ed2774857.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+<!--- nav -->
+<nav class="navbar navbar-expand-lg bg-dark text-uppercase fixed-top" id="mainNav">
+    <div class="container">
+        <a class="navbar-brand" href="#page-top">Lucas FANECH | Portfolio</a>
+        <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            Menu
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#">About</a></li>
+                <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Portfolio</a></li>
+                <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Contact</a></li>
+                <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" ><strong>en</strong> | fr</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!--- header -->
+<header class="portfolio bg-dark text-white text-center">
+    <div class="container d-flex align-items-center flex-column">
+
+        <img class="portfolio-avatar mb-5" src="img/profile.jpg" alt="Profile" />
+
+        <h1 class="portfolio-heading text-uppercase mb-0">Lucas FANECH</h1>
+
+        <div class="divider-custom divider-light">
+            <div class="divider-custom-line"></div>
+            <div class="divider-custom-icon"><i class="fa-solid fa-code"></i></div>
+            <div class="divider-custom-line"></div>
+        </div>
+        <p class="portfolio-subheading font-weight-light mb-0">Full Stack Developer - Industry 4.0 <br> Project Management</p>
+        <hr>
+        <a href="img/CV_Lucas_FANECH_2022.pdf" class="btn btn-primary btn-xl text-uppercase">Check my CV</a>
+    </div>
+</header>
+<!--- portfolio --->
+<div id="portfolio" class="container-fluid bg-primary">
+    <div class="row text-center">
+        <hr>
+        <h1 class="text-white">Professional projects</h1>
+    </div>
+
+
+    <ul class="cards">
+        <li>
+            <a class="card shadow-lg">
+                <img src="img/project1.png" class="card__image" alt="" />
+                <div class="card__overlay">
+                    <div class="card__header">
+                        <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>
+                        <div class="card__header-text">
+                            <h3 >Top Planet 4.0</h3>
+                            <span hidden>Une interface visualisant en temps réel le bilan énergétique d'une usine à l'aide de capteurs électrique implémentés dans l'usine.</span>
+                            <span>#energy #efficiency #sensors #dashboard</span>
+                        </div>
+                    </div>
+                    <p class="card__description">An interface visualizing in real time the energy efficiency of a plant thanks to electrical sensors implemented in the plant</p>
+                    <div class="text-center"><button class="btn btn-outline-success">Read more</button></div>
+
+                </div>
+            </a>
+        </li>
+        <li>
+            <a class="card shadow-lg">
+                <img src="img/project2.jpg" class="card__image" alt="" />
+                <div class="card__overlay">
+                    <div class="card__header">
+                        <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>
+                        <div class="card__header-text">
+                            <h3>Map Network</h3>
+                            <span hidden>Carte visualisant les appareils connectés dans l'usine</span>
+                            <span>#network #digitalmap #connectivity </span>
+                        </div>
+                    </div>
+                    <p class="card__description">Map showing the devices connected in the plant</p>
+                    <div class="text-center"><button class="btn btn-outline-success">Read more</button></div>
+
+                </div>
+            </a>
+        </li>
+        <li>
+            <a class="card shadow-lg">
+                <img src="img/project3.jpg" class="card__image" alt="" />
+                <div class="card__overlay">
+                    <div class="card__header">
+                        <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>
+                        <div class="card__header-text">
+                            <h3 >Excel Web Editor</h3>
+                            <span hidden> Une page Web affichant au format HTML un tableau xlsx et donnat la possibilité de modifier les cellules avec un système de versionnage</span>
+                            <span>#excel #webeditor #versionning</span>
+                        </div>
+                    </div>
+                    <p class="card__description">A web page displaying an xlsx table in HTML format and giving the possibility to modify the cells with a versioning system</p>
+                    <div class="text-center"><button class="btn btn-outline-success">Read more</button></div>
+
+                </div>
+            </a>
+        </li>
+    </ul>
+    <hr>
+</div>
+<!--- School projects --->
+<div class="container-fluid bg-success">
+    <div class="row text-center">
+        <hr>
+        <h1 class="text-white">School projects</h1>
+    </div>
+
+    <ul class="cards">
+        <li>
+            <a class="card shadow-lg">
+                <img src="img/project4.png" class="card__image" alt="" />
+                <div class="card__overlay">
+                    <div class="card__header">
+                        <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>
+                        <div class="card__header-text">
+                            <h3 >Connected object: Call Me Maybe</h3>
+                            <span hidden></span>
+                            <span>#lorawan #connected #remote #student</span>
+                        </div>
+                    </div>
+                    <p class="card__description">A connected remote control using the LoRa long-distance network, allowing a student to be placed on a waiting list when he wishes to call the teacher.</p>
+                    <div class="text-center"><button id="project4" class="btn btn-outline-success">Read more</button></div>
+
+                </div>
+            </a>
+        </li>
+        <li>
+            <a class="card shadow-lg">
+                <img src="img/project5.png" class="card__image" alt="" />
+                <div class="card__overlay">
+                    <div class="card__header">
+                        <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>
+                        <div class="card__header-text">
+                            <h3>Project: AutoMoto</h3>
+                            <span hidden></span>
+                            <span>#leaderboard #race #rfid</span>
+                        </div>
+                    </div>
+                    <p class="card__description">An interface with an automated classification using a door with an RFID sensor to detect each passage of motorcyclists.</p>
+                    <div class="text-center"><button class="btn btn-outline-success">Read more</button></div>
+
+                </div>
+            </a>
+        </li>
+        <li>
+            <a class="card shadow-lg">
+                <img src="img/project9.jpg" class="card__image" alt="" />
+                <div class="card__overlay">
+                    <div class="card__header">
+                        <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>
+                        <div class="card__header-text">
+                            <h3 >Social Network: Drasil</h3>
+                            <span hidden></span>
+                            <span>#socialnetwork #thread</span>
+                        </div>
+                    </div>
+                    <p class="card__description">A social network with a discussion thread like Twitter.</p>
+                    <div class="text-center"><button class="btn btn-outline-success">Read more</button></div>
+
+                </div>
+            </a>
+        </li>
+    </ul>
+    <hr>
+</div>
+
+<!-- Personal projects -->
+
+<div class="container-fluid bg-warning">
+    <div class="row text-center">
+        <hr>
+        <h1>Personal projects</h1>
+    </div>
+
+
+    <ul class="cards">
+        <li>
+            <a class="card shadow-lg">
+                <img src="img/project10.png" class="card__image" alt="" />
+                <div class="card__overlay">
+                    <div class="card__header">
+                        <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>
+                        <div class="card__header-text">
+                            <h3 >Game: Fake Synopsis</h3>
+                            <span hidden></span>
+                            <span>#game #cinema #synopsis #multiplayer</span>
+                        </div>
+                    </div>
+                    <p class="card__description">A multiplayer parlor game, the goal is to choose a random movie and narrate the synopsis while trying to add randomly generated words without being detected by opponents.</p>
+                    <div class="text-center"><button class="btn btn-outline-success">Read more</button></div>
+
+                </div>
+            </a>
+        </li>
+        <li>
+            <a class="card shadow-lg">
+                <img src="img/project6.png" class="card__image" alt="" />
+                <div class="card__overlay">
+                    <div class="card__header">
+                        <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>
+                        <div class="card__header-text">
+                            <h3>BootHome</h3>
+                            <span hidden></span>
+                            <span>#dashboard #todolist #notes #agenda</span>
+                        </div>
+                    </div>
+                    <p class="card__description">A personal dashboard to find your notes, your agenda and a text chat.</p>
+                    <div class="text-center"><button class="btn btn-outline-success">Read more</button></div>
+
+                </div>
+            </a>
+        </li>
+        <li>
+            <a class="card shadow-lg">
+                <img src="img/project7.jpg" class="card__image" alt="" />
+                <div class="card__overlay">
+                    <div class="card__header">
+                        <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>
+                        <div class="card__header-text">
+                            <h3 >Game: Blackjack.js</h3>
+                            <span hidden></span>
+                            <span>#multiplayer #game #blackjack</span>
+                        </div>
+                    </div>
+                    <p class="card__description">A multiplayer blackjack game with fictitious money, managed by a node.js server.</p>
+                    <div class="text-center"><button class="btn btn-outline-success">Read more</button></div>
+
+                </div>
+            </a>
+        </li>
+    </ul>
+    <hr>
+</div>
+
+
+</body>
+
+
+<script>
+    $(document).ready(function () {
+        $("#project4").click(function () {
+            window.location.href = "https://www.hackster.io/468461/callmemaybe-a-remote-control-for-calling-teacher-lora-352207";
+        });
+    });
+</script>
+</html>
